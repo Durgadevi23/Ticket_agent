@@ -1,0 +1,50 @@
+{
+    "agents": [
+        {
+            "id":5,
+            "name":{
+                "first":"Durga",
+                "last":"devi"
+            },
+            "mobile":8110018723,
+            "email":"durgadeviece98@gmail.com"
+        }
+    ],
+    "contacts":[
+        {
+            "id":7,
+            "name":{
+                "first":"Durga",
+                "last":"Mohana"
+            },
+            "mobile":9514883927,
+            "email":"durgamohanas@gmail.com"
+        }
+    ],
+    "tickets": [
+        {
+            "id":1,
+            "subject":"test",
+            "description":"test ticket",
+            "contactid":2,
+            "agentId":7
+        }
+    ],
+    "type":{
+        "question":"Question",
+        "incident":"Incident",
+        "problem":"Problem"
+    },
+    "status":{
+        "open":"Open",
+        "pending":"Pending",
+        "resolved":"Resolved",
+        "closed":"Closed"
+    },
+    "priority":{
+        "low":"Low",
+        "medium":"Medium",
+        "high":"High",
+        "urgent":"Urgent"
+    }
+}
